@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f1f28"/>
+      <stop offset="100%" stop-color="#2a2a36"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g fill="#FF7B00" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <circle cx="600" cy="380" r="120" fill="#FF7B00" opacity="0.3"/>
+    <text x="600" y="410" font-size="72" font-weight="700">Dragon Ball</text>
+    <text x="600" y="470" font-size="28" fill="#ddd">Imagen pendiente</text>
+  </g>
+</svg>
