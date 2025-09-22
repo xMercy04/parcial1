@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Villanos — Dragon Ball Archive</title>
+  <meta name="description" content="Fan site educativo de Dragon Ball con fichas, villanos y sagas."/>
+  <meta name="theme-color" content="#0e0e11"/>
+  <meta property="og:title" content="Villanos — Dragon Ball Archive"/>
+  <meta property="og:description" content="Fan site educativo de Dragon Ball con fichas, villanos y sagas."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" href="img/favicon.svg">
+</head>
+<body>
+<div class="skip"><a href="#contenido">Saltar al contenido</a></div>
+<header class="header" role="banner">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="logo" aria-hidden="true">★</span>
+      <strong>Dragon Ball Archive</strong>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav" id="menuBtn">Menú</button>
+    <nav id="nav" class="nav" role="navigation" aria-label="Principal">
+      <a href="saiyajines.html">Saiyajines</a>
+      <a href="villanos.html">Villanos</a>
+      <a href="sagas.html">Sagas</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">◐</button>
+          <a href="super.html">Dioses y Rivales</a>
+      </nav>
+  </div>
+</header>
+<main id="contenido" class="content">
+
+<section class="wrap section">
+  <header class="section-head">
+    <h1>Villanos</h1>
+    <p class="muted">Los antagonistas que marcaron la historia. Filtra por saga.</p>
+  </header>
+
+  <div class="chips" role="group" aria-label="Filtros por saga">
+    <button class="chip" data-filter="namek">Namek/Freezer</button>
+    <button class="chip" data-filter="cell">Cell Games</button>
+    <button class="chip" data-filter="buu">Majin Buu</button>
+    <button class="chip" data-filter="super">Dragon Ball Super</button>
+    <button class="chip" data-filter="all" aria-pressed="true">Todos</button>
+  </div>
+
+  <div id="grid" class="grid three">
+
+    <article class="card item" data-tags="namek">
+      <img src="img/frieza.jpg" alt="Freezer" onerror="this.onerror=null;this.src='img/placeholder.svg';">
+      <div class="card-body">
+        <h3>Freezer</h3>
+        <p class="muted">Emperador galáctico; múltiples formas.</p>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="cell">
+      <img src="img/cell.jpg" alt="Cell" onerror="this.onerror=null;this.src='img/placeholder.svg';">
+      <div class="card-body">
+        <h3>Cell</h3>
+        <p class="muted">Bioandroide perfecto creado por la Red Ribbon.</p>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="buu">
+      <img src="img/buu.jpg" alt="Majin Buu" onerror="this.onerror=null;this.src='img/placeholder.svg';">
+      <div class="card-body">
+        <h3>Majin Buu</h3>
+        <p class="muted">Entidad mágica con múltiples formas.</p>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="super">
+      <img src="img/black.jpg" alt="Goku Black" onerror="this.onerror=null;this.src='img/placeholder.svg';">
+      <div class="card-body">
+        <h3>Goku Black</h3>
+        <p class="muted">Zamasu en el cuerpo de Goku; forma Rose.</p>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="super">
+      <img src="img/zamasu.jpg" alt="Zamasu" onerror="this.onerror=null;this.src='img/placeholder.svg';">
+      <div class="card-body">
+        <h3>Zamasu</h3>
+        <p class="muted">Kaioshin aprendiz con plan de "justicia" distorsionada.</p>
+      </div>
+    </article>
+
+</div>
+</section>
+
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <small>© 2024 — Proyecto educativo de fans. No oficial</small>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
