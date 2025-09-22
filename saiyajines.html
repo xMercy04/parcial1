@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Saiyajines — Dragon Ball Archive</title>
+  <meta name="description" content="Fan site educativo de Dragon Ball con fichas, villanos y sagas."/>
+  <meta name="theme-color" content="#0e0e11"/>
+  <meta property="og:title" content="Saiyajines — Dragon Ball Archive"/>
+  <meta property="og:description" content="Fan site educativo de Dragon Ball con fichas, villanos y sagas."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="icon" href="img/favicon.svg">
+</head>
+<body>
+<div class="skip"><a href="#contenido">Saltar al contenido</a></div>
+<header class="header" role="banner">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="logo" aria-hidden="true">★</span>
+      <strong>Dragon Ball Archive</strong>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav" id="menuBtn">Menú</button>
+    <nav id="nav" class="nav" role="navigation" aria-label="Principal">
+      <a href="saiyajines.html">Saiyajines</a>
+      <a href="villanos.html">Villanos</a>
+      <a href="sagas.html">Sagas</a>
+      <button id="themeToggle" class="theme-toggle" aria-label="Cambiar tema">◐</button>
+          <a href="super.html">Dioses y Rivales</a>
+      </nav>
+  </div>
+</header>
+<main id="contenido" class="content">
+
+<section class="wrap section">
+  <header class="section-head">
+    <h1>Saiyajines</h1>
+    <p class="muted">Raza guerrera del Planeta Vegeta. Usa el buscador o filtra por transformaciones.</p>
+  </header>
+
+  <div class="toolbar">
+    <input id="searchInput" class="input" type="search" placeholder="Buscar por nombre o técnica…"/>
+    <div class="chips" role="group" aria-label="Filtros de transformaciones">
+      <button class="chip" data-filter="ssj">SSJ</button>
+      <button class="chip" data-filter="ssj2">SSJ2</button>
+      <button class="chip" data-filter="ssj3">SSJ3</button>
+      <button class="chip" data-filter="god">God</button>
+      <button class="chip" data-filter="blue">Blue</button>
+      <button class="chip" data-filter="ultra">Ultra</button>
+      <button class="chip" data-filter="all" aria-pressed="true">Todos</button>
+    </div>
+  </div>
+
+  <div id="grid" class="grid three">
+    <article class="card item" data-tags="ssj ssj3 blue ultra kamehameha genkidama">
+      <img src="img/goku.jpg" alt="Goku en modo Super Saiyajin"/ onerror="this.onerror=null;this.src=\'img/placeholder.svg\';">
+      <div class="card-body">
+        <h3>Son Goku</h3>
+        <ul class="meta">
+          <li>Transformaciones: SSJ, SSJ2, SSJ3, God, Blue, Ultra Instinct</li>
+          <li>Técnicas: Kamehameha, Genkidama, Kaioken</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="ssj ssj2 blue galick final-flash">
+      <img src="img/vegeta.jpg" alt="Vegeta"/ onerror="this.onerror=null;this.src=\'img/placeholder.svg\';">
+      <div class="card-body">
+        <h3>Vegeta</h3>
+        <ul class="meta">
+          <li>Transformaciones: SSJ, SSJ2, Blue, Ultra Ego (manga)</li>
+          <li>Técnicas: Galick Gun, Final Flash, Big Bang Attack</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="ssj2 beast masenko">
+      <img src="img/gohan.jpg" alt="Gohan"/ onerror="this.onerror=null;this.src=\'img/placeholder.svg\';">
+      <div class="card-body">
+        <h3>Gohan</h3>
+        <ul class="meta">
+          <li>Formas: SSJ2, Ultimate/Mystic, Beast</li>
+          <li>Técnicas: Masenko, Kamehameha Padre-Hijo</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="ssj rage espada">
+      <img src="img/trunks.jpg" alt="Trunks del futuro con espada"/ onerror="this.onerror=null;this.src=\'img/placeholder.svg\';">
+      <div class="card-body">
+        <h3>Trunks (Futuro)</h3>
+        <ul class="meta">
+          <li>Formas: SSJ, SSJ Rage</li>
+          <li>Arma: Espada</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="card item" data-tags="legendary wrathful">
+      <img src="img/broly.jpg" alt="Broly"/ onerror="this.onerror=null;this.src=\'img/placeholder.svg\';">
+      <div class="card-body">
+        <h3>Broly</h3>
+        <ul class="meta">
+          <li>Formas: Wrathful, SSJ, Legendary SSJ</li>
+          <li>Rasgo: Poder latente descomunal</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <small>© 2024 — Proyecto educativo de fans. No oficial</small>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
